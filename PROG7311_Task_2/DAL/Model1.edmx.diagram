@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="45f881b8f20548ee9a81093be4bc3bd7" Name="Diagram1">
+        <EntityTypeShape EntityType="dbSecondHandGamingStoreModel.Tbl_Cart" Width="1.5" PointX="5.25" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbSecondHandGamingStoreModel.Tbl_CartStatus" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbSecondHandGamingStoreModel.Tbl_Category" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbSecondHandGamingStoreModel.Tbl_MemberRole" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbSecondHandGamingStoreModel.Tbl_Members" Width="1.5" PointX="0.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbSecondHandGamingStoreModel.Tbl_Product" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbSecondHandGamingStoreModel.Tbl_Roles" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbSecondHandGamingStoreModel.Tbl_ShippingDetails" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbSecondHandGamingStoreModel.Tbl_SlideImage" Width="1.5" PointX="5.75" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="dbSecondHandGamingStoreModel.FK__Tbl_Cart__Produc__1BFD2C07" ManuallyRouted="false" />
+        <AssociationConnector Association="dbSecondHandGamingStoreModel.FK__Tbl_Produ__Categ__145C0A3F" ManuallyRouted="false" />
+        <AssociationConnector Association="dbSecondHandGamingStoreModel.FK__Tbl_Shipp__Membe__22AA2996" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="dbSecondHandGamingStoreModel.Tbl_Orders" Width="1.5" PointX="8.375" PointY="6.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
